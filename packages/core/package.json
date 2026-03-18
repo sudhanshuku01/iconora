@@ -1,6 +1,25 @@
 {
   "name": "@iconora/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Iconora – Raw SVG icon data for React, Vue, Svelte and Vanilla JS.",
+  "license": "MIT",
+  "homepage": "https://sudhanshuku01.github.io/iconora/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudhanshuku01/iconora.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sudhanshuku01/iconora/issues"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "iconora",
+    "typescript",
+    "react",
+    "vue",
+    "svelte"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
