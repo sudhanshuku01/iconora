@@ -210,6 +210,115 @@ export const EyeOffIcon = createIcon("eye-off");
 export const MapPinIcon = createIcon("map-pin");
 export const CloudIcon = createIcon("cloud");
 export const ZapIcon = createIcon("zap");
+export const PlusIcon = createIcon("plus");
+export const MinusIcon = createIcon("minus");
+export const CheckIcon = createIcon("check");
+export const InfoIcon = createIcon("info");
+export const HelpCircleIcon = createIcon("help-circle");
+export const LoaderIcon = createIcon("loader");
+export const CalendarIcon = createIcon("calendar");
+export const ClockIcon = createIcon("clock");
+export const DashboardIcon = createIcon("dashboard");
+export const CommandIcon = createIcon("command");
+
+export const ArrowUpLeftIcon = createIcon("arrow-up-left");
+export const ArrowUpRightIcon = createIcon("arrow-up-right");
+export const ArrowDownLeftIcon = createIcon("arrow-down-left");
+export const ArrowDownRightIcon = createIcon("arrow-down-right");
+export const ChevronsUpIcon = createIcon("chevrons-up");
+export const ChevronsDownIcon = createIcon("chevrons-down");
+export const ChevronsLeftIcon = createIcon("chevrons-left");
+export const ChevronsRightIcon = createIcon("chevrons-right");
+export const MoveIcon = createIcon("move");
+export const RepeatIcon = createIcon("repeat");
+
+export const VideoIcon = createIcon("video");
+export const MusicIcon = createIcon("music");
+export const HeadphonesIcon = createIcon("headphones");
+export const PodcastIcon = createIcon("podcast");
+export const RadioIcon = createIcon("radio");
+export const FastForwardIcon = createIcon("fast-forward");
+export const RewindIcon = createIcon("rewind");
+export const SkipNextIcon = createIcon("skip-next");
+export const SkipBackIcon = createIcon("skip-back");
+export const SpeakerOffIcon = createIcon("speaker-off");
+
+export const SendIcon = createIcon("send");
+export const MessageSquareIcon = createIcon("message-square");
+export const MessageCircleIcon = createIcon("message-circle");
+export const AtSignIcon = createIcon("at-sign");
+export const InboxIcon = createIcon("inbox");
+export const OutboxIcon = createIcon("outbox");
+export const RssIcon = createIcon("rss");
+export const UsersIcon = createIcon("users");
+export const UserPlusIcon = createIcon("user-plus");
+export const UserMinusIcon = createIcon("user-minus");
+
+export const WalletIcon = createIcon("wallet");
+export const ReceiptIcon = createIcon("receipt");
+export const BagIcon = createIcon("bag");
+export const ShoppingBagIcon = createIcon("shopping-bag");
+export const CouponIcon = createIcon("coupon");
+export const PercentIcon = createIcon("percent");
+export const BanknoteIcon = createIcon("banknote");
+export const CoinsIcon = createIcon("coins");
+export const CalculatorIcon = createIcon("calculator");
+
+export const FileTextIcon = createIcon("file-text");
+export const FileCodeIcon = createIcon("file-code");
+export const FileJsonIcon = createIcon("file-json");
+export const FilePlusIcon = createIcon("file-plus");
+export const FileMinusIcon = createIcon("file-minus");
+export const FolderOpenIcon = createIcon("folder-open");
+export const FolderPlusIcon = createIcon("folder-plus");
+export const FolderGitIcon = createIcon("folder-git");
+export const TerminalIcon = createIcon("terminal");
+export const CodeIcon = createIcon("code");
+export const ClipboardIcon = createIcon("clipboard");
+
+export const ActivityIcon = createIcon("activity");
+export const LineChartIcon = createIcon("line-chart");
+export const AreaChartIcon = createIcon("area-chart");
+export const GaugeIcon = createIcon("gauge");
+export const DatabaseIcon = createIcon("database");
+export const ServerIcon = createIcon("server");
+export const CpuIcon = createIcon("cpu");
+export const HardDriveIcon = createIcon("hard-drive");
+export const BugIcon = createIcon("bug");
+export const LayersIcon = createIcon("layers");
+
+export const LaptopIcon = createIcon("laptop");
+export const TabletIcon = createIcon("tablet");
+export const WatchIcon = createIcon("watch");
+export const KeyboardIcon = createIcon("keyboard");
+export const MouseIcon = createIcon("mouse");
+export const PrinterIcon = createIcon("printer");
+export const ScannerIcon = createIcon("scanner");
+export const UsbIcon = createIcon("usb");
+export const BatteryIcon = createIcon("battery");
+export const BatteryChargingIcon = createIcon("battery-charging");
+
+export const FingerprintIcon = createIcon("fingerprint");
+export const QrCodeIcon = createIcon("qr-code");
+export const ScanIcon = createIcon("scan");
+export const ShieldCheckIcon = createIcon("shield-check");
+export const ShieldAlertIcon = createIcon("shield-alert");
+export const UserCheckIcon = createIcon("user-check");
+export const UserXIcon = createIcon("user-x");
+export const KeyholeIcon = createIcon("keyhole");
+export const BadgeCheckIcon = createIcon("badge-check");
+export const BadgeAlertIcon = createIcon("badge-alert");
+
+export const CompassIcon = createIcon("compass");
+export const NavigationIcon = createIcon("navigation");
+export const FlagIcon = createIcon("flag");
+export const RouteIcon = createIcon("route");
+export const UmbrellaIcon = createIcon("umbrella");
+export const SnowflakeIcon = createIcon("snowflake");
+export const ThermometerIcon = createIcon("thermometer");
+export const WindIcon = createIcon("wind");
+export const SunriseIcon = createIcon("sunrise");
+export const SunsetIcon = createIcon("sunset");
 
 // Re-export core utilities for convenience
 export {

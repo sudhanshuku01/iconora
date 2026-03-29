@@ -1,409 +1,1379 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- ═══════════════════════════════════════════════════════════════
+    <!-- ═══════════════════════════════════════════════════════════════
      PRIMARY SEO
 ════════════════════════════════════════════════════════════════ -->
-<title>Iconora — Free SVG Icon Library for React, Vue & Vanilla JS</title>
-<meta name="description" content="Iconora is a free, open-source SVG icon library with 60+ hand-crafted icons. Works with React, Vue, Svelte, Angular and Vanilla JS. Tree-shakeable, TypeScript-ready, accessible. Install with npm."/>
-<meta name="keywords" content="iconora, svg icons, react icons, icon library, free icons, typescript icons, open source icons, npm icon library, svg react components, accessible icons, tree shakeable icons, @iconora/react, @iconora/core"/>
-<meta name="author" content="Iconora"/>
-<meta name="robots" content="index, follow"/>
-<link rel="canonical" href="https://sudhanshuku01.github.io/iconora/"/>
+    <title>Iconora — Free SVG Icon Library for React, Vue & Vanilla JS</title>
+    <meta
+      name="description"
+      content="Iconora is a free, open-source SVG icon library with 60+ hand-crafted icons. Works with React, Vue, Svelte, Angular and Vanilla JS. Tree-shakeable, TypeScript-ready, accessible. Install with npm."
+    />
+    <meta
+      name="keywords"
+      content="iconora, svg icons, react icons, icon library, free icons, typescript icons, open source icons, npm icon library, svg react components, accessible icons, tree shakeable icons, @iconora/react, @iconora/core"
+    />
+    <meta name="author" content="Iconora" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sudhanshuku01.github.io/iconora/" />
 
-<!-- ═══════════════════════════════════════════════════════════════
+    <!-- ═══════════════════════════════════════════════════════════════
      OPEN GRAPH (Facebook, LinkedIn, WhatsApp, Discord)
 ════════════════════════════════════════════════════════════════ -->
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://sudhanshuku01.github.io/iconora/"/>
-<meta property="og:title" content="Iconora — Free SVG Icon Library for React & Beyond"/>
-<meta property="og:description" content="60+ hand-crafted SVG icons. Works with React, Vue, Svelte and Vanilla JS. Tree-shakeable, TypeScript-ready, accessible. Free and open source."/>
-<meta property="og:site_name" content="Iconora"/>
-<meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://sudhanshuku01.github.io/iconora/"
+    />
+    <meta
+      property="og:title"
+      content="Iconora — Free SVG Icon Library for React & Beyond"
+    />
+    <meta
+      property="og:description"
+      content="60+ hand-crafted SVG icons. Works with React, Vue, Svelte and Vanilla JS. Tree-shakeable, TypeScript-ready, accessible. Free and open source."
+    />
+    <meta property="og:site_name" content="Iconora" />
+    <meta property="og:locale" content="en_US" />
 
-<!-- ═══════════════════════════════════════════════════════════════
+    <!-- ═══════════════════════════════════════════════════════════════
      TWITTER CARD
 ════════════════════════════════════════════════════════════════ -->
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Iconora — Free SVG Icon Library"/>
-<meta name="twitter:description" content="60+ hand-crafted SVG icons for React, Vue, Svelte & Vanilla JS. Free, open source, TypeScript-ready."/>
-<meta name="twitter:site" content="@iconora"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Iconora — Free SVG Icon Library" />
+    <meta
+      name="twitter:description"
+      content="60+ hand-crafted SVG icons for React, Vue, Svelte & Vanilla JS. Free, open source, TypeScript-ready."
+    />
+    <meta name="twitter:site" content="@iconora" />
 
-<!-- ═══════════════════════════════════════════════════════════════
+    <!-- ═══════════════════════════════════════════════════════════════
      SCHEMA.org STRUCTURED DATA (Google rich results)
 ════════════════════════════════════════════════════════════════ -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Iconora",
-  "url": "https://sudhanshuku01.github.io/iconora/",
-  "description": "Free open-source SVG icon library with 60+ hand-crafted icons for React, Vue, Svelte and Vanilla JS. Tree-shakeable, TypeScript-ready and accessible.",
-  "applicationCategory": "DeveloperApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "license": "https://opensource.org/licenses/MIT",
-  "softwareVersion": "1.0.0",
-  "keywords": "svg icons, react icons, icon library, typescript, open source",
-  "author": {
-    "@type": "Organization",
-    "name": "Iconora",
-    "url": "https://sudhanshuku01.github.io/iconora/"
-  }
-}
-</script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Iconora",
+        "url": "https://sudhanshuku01.github.io/iconora/",
+        "description": "Free open-source SVG icon library with 60+ hand-crafted icons for React, Vue, Svelte and Vanilla JS. Tree-shakeable, TypeScript-ready and accessible.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "license": "https://opensource.org/licenses/MIT",
+        "keywords": "svg icons, react icons, icon library, typescript, open source",
+        "author": {
+          "@type": "Organization",
+          "name": "Iconora",
+          "url": "https://sudhanshuku01.github.io/iconora/"
+        }
+      }
+    </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
 
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --ink:#0a0a0f;--ink-2:#3b3b4a;--ink-3:#7b7b8f;
-  --surface:#fafaf8;--surface-2:#f2f1ee;--surface-3:#e8e7e3;
-  --accent:#1a1aff;--accent-2:#6666ff;
-  --green:#22c55e;--border:rgba(10,10,15,0.1);
-}
-html{scroll-behavior:smooth}
-body{font-family:'DM Sans',sans-serif;background:var(--surface);color:var(--ink);line-height:1.6;overflow-x:hidden}
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --ink: #0a0a0f;
+        --ink-2: #3b3b4a;
+        --ink-3: #7b7b8f;
+        --surface: #fafaf8;
+        --surface-2: #f2f1ee;
+        --surface-3: #e8e7e3;
+        --accent: #1a1aff;
+        --accent-2: #6666ff;
+        --green: #22c55e;
+        --border: rgba(10, 10, 15, 0.1);
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "DM Sans", sans-serif;
+        background: var(--surface);
+        color: var(--ink);
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
 
-/* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:60px;background:rgba(250,250,248,0.9);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
-.nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:20px;letter-spacing:-0.5px;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
-.nav-dot{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block}
-.nav-links{display:flex;align-items:center;gap:28px}
-.nav-links a{font-size:14px;font-weight:500;color:var(--ink-3);text-decoration:none;transition:color .15s}
-.nav-links a:hover{color:var(--ink)}
-.nav-cta{font-size:13px;font-weight:500;padding:7px 18px;border-radius:8px;background:var(--ink);color:var(--surface);text-decoration:none;transition:opacity .15s}
-.nav-cta:hover{opacity:.8}
+      /* NAV */
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+        height: 60px;
+        background: rgba(250, 250, 248, 0.9);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid var(--border);
+      }
+      .nav-logo {
+        font-family: "Syne", sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: -0.5px;
+        color: var(--ink);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .nav-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--accent);
+        display: inline-block;
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+      }
+      .nav-links a {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--ink-3);
+        text-decoration: none;
+        transition: color 0.15s;
+      }
+      .nav-links a:hover {
+        color: var(--ink);
+      }
+      .nav-cta {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 7px 18px;
+        border-radius: 8px;
+        background: var(--ink);
+        color: var(--surface);
+        text-decoration: none;
+        transition: opacity 0.15s;
+      }
+      .nav-cta:hover {
+        opacity: 0.8;
+      }
 
-/* HERO */
-.hero{padding:160px 40px 80px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
-.hero-badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:500;font-family:'DM Mono',monospace;padding:4px 12px;border-radius:100px;background:var(--surface-2);border:1px solid var(--border);color:var(--ink-2);margin-bottom:20px}
-.badge-dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
-h1{font-family:'Syne',sans-serif;font-size:clamp(44px,5vw,68px);font-weight:800;line-height:1.0;letter-spacing:-2px;margin-bottom:20px}
-h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent),var(--accent-2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.hero-sub{font-size:17px;font-weight:300;color:var(--ink-2);line-height:1.7;max-width:460px;margin-bottom:32px}
-.hero-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.btn-p{font-size:14px;font-weight:500;padding:10px 22px;border-radius:9px;background:var(--ink);color:var(--surface);text-decoration:none;transition:transform .15s,opacity .15s;border:none;cursor:pointer}
-.btn-p:hover{transform:translateY(-1px);opacity:.9}
-.btn-s{font-size:14px;font-weight:500;padding:9px 22px;border-radius:9px;background:transparent;color:var(--ink);text-decoration:none;border:1px solid var(--border);transition:background .15s;cursor:pointer}
-.btn-s:hover{background:var(--surface-2)}
-.install-pill{font-size:12px;font-family:'DM Mono',monospace;padding:9px 14px;border-radius:9px;background:var(--surface-2);border:1px solid var(--border);color:var(--ink-2);cursor:pointer;transition:background .15s;display:flex;align-items:center;gap:7px}
-.install-pill:hover{background:var(--surface-3)}
-.install-pill span{color:var(--accent)}
+      /* HERO */
+      .hero {
+        padding: 160px 40px 80px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+        align-items: center;
+      }
+      .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "DM Mono", monospace;
+        padding: 4px 12px;
+        border-radius: 100px;
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        color: var(--ink-2);
+        margin-bottom: 20px;
+      }
+      .badge-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--green);
+      }
+      h1 {
+        font-family: "Syne", sans-serif;
+        font-size: clamp(44px, 5vw, 68px);
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -2px;
+        margin-bottom: 20px;
+      }
+      h1 em {
+        font-style: normal;
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .hero-sub {
+        font-size: 17px;
+        font-weight: 300;
+        color: var(--ink-2);
+        line-height: 1.7;
+        max-width: 460px;
+        margin-bottom: 32px;
+      }
+      .hero-actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .btn-p {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 22px;
+        border-radius: 9px;
+        background: var(--ink);
+        color: var(--surface);
+        text-decoration: none;
+        transition:
+          transform 0.15s,
+          opacity 0.15s;
+        border: none;
+        cursor: pointer;
+      }
+      .btn-p:hover {
+        transform: translateY(-1px);
+        opacity: 0.9;
+      }
+      .btn-s {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 22px;
+        border-radius: 9px;
+        background: transparent;
+        color: var(--ink);
+        text-decoration: none;
+        border: 1px solid var(--border);
+        transition: background 0.15s;
+        cursor: pointer;
+      }
+      .btn-s:hover {
+        background: var(--surface-2);
+      }
+      .install-pill {
+        font-size: 12px;
+        font-family: "DM Mono", monospace;
+        padding: 9px 14px;
+        border-radius: 9px;
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        color: var(--ink-2);
+        cursor: pointer;
+        transition: background 0.15s;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .install-pill:hover {
+        background: var(--surface-3);
+      }
+      .install-pill span {
+        color: var(--accent);
+      }
 
-/* MOSAIC */
-.hero-mosaic{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}
-.mc{aspect-ratio:1;border-radius:11px;background:var(--surface-2);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s cubic-bezier(.34,1.56,.64,1)}
-.mc:hover,.mc.lit{background:var(--ink);border-color:transparent}
-.mc:hover svg,.mc.lit svg{stroke:#fff}
-.mc svg{width:20px;height:20px;stroke:var(--ink-2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:stroke .2s}
+      /* MOSAIC */
+      .hero-mosaic {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 9px;
+      }
+      .mc {
+        aspect-ratio: 1;
+        border-radius: 11px;
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+      }
+      .mc:hover,
+      .mc.lit {
+        background: var(--ink);
+        border-color: transparent;
+      }
+      .mc:hover svg,
+      .mc.lit svg {
+        stroke: #fff;
+      }
+      .mc svg {
+        width: 20px;
+        height: 20px;
+        stroke: var(--ink-2);
+        fill: none;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transition: stroke 0.2s;
+      }
 
-/* STATS */
-.stats-bar{border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:24px 40px;display:flex;align-items:center;justify-content:center;gap:56px;background:var(--surface)}
-.stat-n{font-family:'Syne',sans-serif;font-size:26px;font-weight:700;color:var(--ink);letter-spacing:-1px;text-align:center}
-.stat-l{font-size:12px;color:var(--ink-3);text-align:center;margin-top:2px}
+      /* STATS */
+      .stats-bar {
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        padding: 24px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 56px;
+        background: var(--surface);
+      }
+      .stat-n {
+        font-family: "Syne", sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--ink);
+        letter-spacing: -1px;
+        text-align: center;
+      }
+      .stat-l {
+        font-size: 12px;
+        color: var(--ink-3);
+        text-align: center;
+        margin-top: 2px;
+      }
 
-/* PACKAGES SECTION */
-.packages-section{padding:80px 40px;max-width:1200px;margin:0 auto}
-.stag{font-size:11px;font-weight:500;font-family:'DM Mono',monospace;color:var(--accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
-h2{font-family:'Syne',sans-serif;font-size:clamp(30px,3.5vw,44px);font-weight:700;letter-spacing:-1.5px;line-height:1.1;margin-bottom:12px}
-.ssub{font-size:16px;color:var(--ink-2);max-width:560px;margin-bottom:40px}
-.pkg-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:48px}
-.pkg-card{border-radius:18px;border:1px solid var(--border);padding:32px;background:var(--surface);position:relative;overflow:hidden}
-.pkg-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent-2))}
-.pkg-name{font-family:'DM Mono',monospace;font-size:18px;font-weight:500;color:var(--ink);margin-bottom:8px}
-.pkg-version{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-family:'DM Mono',monospace;padding:3px 10px;border-radius:100px;background:var(--surface-2);border:1px solid var(--border);color:var(--ink-3);margin-bottom:14px}
-.pkg-desc{font-size:14px;color:var(--ink-2);line-height:1.6;margin-bottom:20px}
-.pkg-install{font-size:12px;font-family:'DM Mono',monospace;padding:10px 14px;border-radius:9px;background:#0a0a0f;color:rgba(255,255,255,0.85);display:flex;align-items:center;justify-content:space-between;cursor:pointer;transition:opacity .15s;margin-bottom:16px}
-.pkg-install:hover{opacity:.85}
-.pkg-install span{color:#818cf8}
-.pkg-tags{display:flex;gap:6px;flex-wrap:wrap}
-.pkg-tag{font-size:11px;font-weight:500;padding:3px 10px;border-radius:100px;background:var(--surface-2);border:1px solid var(--border);color:var(--ink-3)}
-.pkg-use-cases{margin-top:16px}
-.pkg-use-title{font-size:12px;font-weight:500;color:var(--ink-3);margin-bottom:8px;font-family:'DM Mono',monospace}
-.pkg-use-list{list-style:none;display:flex;flex-direction:column;gap:5px}
-.pkg-use-list li{font-size:13px;color:var(--ink-2);display:flex;align-items:center;gap:7px}
-.pkg-use-list li::before{content:'→';color:var(--accent);font-size:12px}
+      /* PACKAGES SECTION */
+      .packages-section {
+        padding: 80px 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .stag {
+        font-size: 11px;
+        font-weight: 500;
+        font-family: "DM Mono", monospace;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+      }
+      h2 {
+        font-family: "Syne", sans-serif;
+        font-size: clamp(30px, 3.5vw, 44px);
+        font-weight: 700;
+        letter-spacing: -1.5px;
+        line-height: 1.1;
+        margin-bottom: 12px;
+      }
+      .ssub {
+        font-size: 16px;
+        color: var(--ink-2);
+        max-width: 560px;
+        margin-bottom: 40px;
+      }
+      .pkg-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 48px;
+      }
+      .pkg-card {
+        border-radius: 18px;
+        border: 1px solid var(--border);
+        padding: 32px;
+        background: var(--surface);
+        position: relative;
+        overflow: hidden;
+      }
+      .pkg-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      }
+      .pkg-name {
+        font-family: "DM Mono", monospace;
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--ink);
+        margin-bottom: 8px;
+      }
+      .pkg-desc {
+        font-size: 14px;
+        color: var(--ink-2);
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+      .pkg-install {
+        font-size: 12px;
+        font-family: "DM Mono", monospace;
+        padding: 10px 14px;
+        border-radius: 9px;
+        background: #0a0a0f;
+        color: rgba(255, 255, 255, 0.85);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        margin-bottom: 16px;
+      }
+      .pkg-install:hover {
+        opacity: 0.85;
+      }
+      .pkg-install span {
+        color: #818cf8;
+      }
+      .pkg-tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+      .pkg-tag {
+        font-size: 11px;
+        font-weight: 500;
+        padding: 3px 10px;
+        border-radius: 100px;
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        color: var(--ink-3);
+      }
+      .pkg-use-cases {
+        margin-top: 16px;
+      }
+      .pkg-use-title {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--ink-3);
+        margin-bottom: 8px;
+        font-family: "DM Mono", monospace;
+      }
+      .pkg-use-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .pkg-use-list li {
+        font-size: 13px;
+        color: var(--ink-2);
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .pkg-use-list li::before {
+        content: "→";
+        color: var(--accent);
+        font-size: 12px;
+      }
 
-/* FRAMEWORK COMPAT */
-.compat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:32px}
-.compat-card{border-radius:14px;border:1px solid var(--border);padding:20px;background:var(--surface);text-align:center;transition:border-color .15s}
-.compat-card:hover{border-color:rgba(10,10,15,0.2)}
-.compat-icon{font-size:28px;margin-bottom:8px}
-.compat-name{font-family:'Syne',sans-serif;font-size:14px;font-weight:600;margin-bottom:4px}
-.compat-pkg{font-size:11px;font-family:'DM Mono',monospace;color:var(--ink-3)}
-.compat-badge{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:500;padding:2px 8px;border-radius:100px;margin-top:6px}
-.badge-full{background:#dcfce7;color:#166534}
-.badge-core{background:#dbeafe;color:#1e40af}
+      /* FRAMEWORK COMPAT */
+      .compat-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin-top: 32px;
+      }
+      .compat-card {
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        padding: 20px;
+        background: var(--surface);
+        text-align: center;
+        transition: border-color 0.15s;
+      }
+      .compat-card:hover {
+        border-color: rgba(10, 10, 15, 0.2);
+      }
+      .compat-icon {
+        font-size: 28px;
+        margin-bottom: 8px;
+      }
+      .compat-name {
+        font-family: "Syne", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+      .compat-pkg {
+        font-size: 11px;
+        font-family: "DM Mono", monospace;
+        color: var(--ink-3);
+      }
+      .compat-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 2px 8px;
+        border-radius: 100px;
+        margin-top: 6px;
+      }
+      .badge-full {
+        background: #dcfce7;
+        color: #166534;
+      }
+      .badge-core {
+        background: #dbeafe;
+        color: #1e40af;
+      }
 
-/* ICON BROWSER */
-.browser{padding:0 40px 60px;max-width:1200px;margin:0 auto}
-.sw{position:relative;margin-bottom:16px}
-.si{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:16px;height:16px;stroke:var(--ink-3);stroke-width:2;fill:none;stroke-linecap:round;pointer-events:none}
-input.search{width:100%;padding:12px 14px 12px 42px;border-radius:11px;border:1.5px solid var(--border);background:var(--surface);font-size:14px;font-family:'DM Sans',sans-serif;color:var(--ink);outline:none;transition:border-color .15s}
-input.search:focus{border-color:var(--accent)}
-input.search::placeholder{color:var(--ink-3)}
-.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:22px}
-.fb{font-size:12px;font-weight:500;font-family:'DM Sans',sans-serif;padding:5px 13px;border-radius:100px;border:1px solid var(--border);background:transparent;color:var(--ink-2);cursor:pointer;transition:all .15s}
-.fb:hover{background:var(--surface-2)}
-.fb.active{background:var(--ink);color:#fff;border-color:transparent}
-.igrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(84px,1fr));gap:7px}
-.icard{border-radius:11px;border:1px solid var(--border);background:var(--surface);padding:14px 6px 10px;display:flex;flex-direction:column;align-items:center;gap:7px;cursor:pointer;transition:all .2s;position:relative;overflow:hidden}
-.icard:hover{background:var(--ink);border-color:transparent;transform:translateY(-2px)}
-.icard:hover svg{stroke:#fff}
-.icard:hover .iname{color:#fff}
-.icard svg{width:22px;height:22px;stroke:var(--ink);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:stroke .2s;flex-shrink:0}
-.iname{font-size:10px;color:var(--ink-3);text-align:center;font-family:'DM Mono',monospace;line-height:1.3;transition:color .2s}
-.icopied{position:absolute;inset:0;border-radius:11px;background:var(--accent);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .15s;font-size:11px;font-weight:500;color:#fff}
-.icard.copied .icopied{opacity:1}
-.nores{grid-column:1/-1;text-align:center;padding:48px;color:var(--ink-3);font-size:14px}
+      /* ICON BROWSER */
+      .browser {
+        padding: 0 40px 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .sw {
+        position: relative;
+        margin-bottom: 16px;
+      }
+      .si {
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 16px;
+        stroke: var(--ink-3);
+        stroke-width: 2;
+        fill: none;
+        stroke-linecap: round;
+        pointer-events: none;
+      }
+      input.search {
+        width: 100%;
+        padding: 12px 14px 12px 42px;
+        border-radius: 11px;
+        border: 1.5px solid var(--border);
+        background: var(--surface);
+        font-size: 14px;
+        font-family: "DM Sans", sans-serif;
+        color: var(--ink);
+        outline: none;
+        transition: border-color 0.15s;
+      }
+      input.search:focus {
+        border-color: var(--accent);
+      }
+      input.search::placeholder {
+        color: var(--ink-3);
+      }
+      .filters {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin-bottom: 22px;
+      }
+      .fb {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "DM Sans", sans-serif;
+        padding: 5px 13px;
+        border-radius: 100px;
+        border: 1px solid var(--border);
+        background: transparent;
+        color: var(--ink-2);
+        cursor: pointer;
+        transition: all 0.15s;
+      }
+      .fb:hover {
+        background: var(--surface-2);
+      }
+      .fb.active {
+        background: var(--ink);
+        color: #fff;
+        border-color: transparent;
+      }
+      .igrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+        gap: 7px;
+      }
+      .browser-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 0 0 16px;
+        flex-wrap: wrap;
+      }
+      .browser-count {
+        font-size: 12px;
+        font-family: "DM Mono", monospace;
+        color: var(--ink-3);
+      }
+      .icard {
+        border-radius: 11px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        padding: 14px 6px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        cursor: pointer;
+        transition: all 0.2s;
+        position: relative;
+        overflow: hidden;
+      }
+      .icard:hover {
+        background: var(--ink);
+        border-color: transparent;
+        transform: translateY(-2px);
+      }
+      .icard:hover svg {
+        stroke: #fff;
+      }
+      .icard:hover .iname {
+        color: #fff;
+      }
+      .icard svg {
+        width: 22px;
+        height: 22px;
+        stroke: var(--ink);
+        fill: none;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transition: stroke 0.2s;
+        flex-shrink: 0;
+      }
+      .iname {
+        font-size: 10px;
+        color: var(--ink-3);
+        text-align: center;
+        font-family: "DM Mono", monospace;
+        line-height: 1.3;
+        transition: color 0.2s;
+      }
+      .icopied {
+        position: absolute;
+        inset: 0;
+        border-radius: 11px;
+        background: var(--accent);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.15s;
+        font-size: 11px;
+        font-weight: 500;
+        color: #fff;
+      }
+      .icard.copied .icopied {
+        opacity: 1;
+      }
+      .nores {
+        grid-column: 1/-1;
+        text-align: center;
+        padding: 48px;
+        color: var(--ink-3);
+        font-size: 14px;
+      }
+      .browser-actions {
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+      }
+      .load-more {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 10px 18px;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        color: var(--ink);
+        cursor: pointer;
+        transition:
+          transform 0.15s,
+          background 0.15s,
+          border-color 0.15s;
+      }
+      .load-more:hover {
+        background: var(--surface-2);
+        transform: translateY(-1px);
+      }
+      .load-more[hidden] {
+        display: none;
+      }
 
-/* CODE SECTION */
-.code-sec{padding:0 40px 60px;max-width:1200px;margin:0 auto}
-.code-tabs{display:flex;gap:4px;margin-bottom:20px;border-bottom:1px solid var(--border);padding-bottom:0}
-.ctab{font-size:13px;font-weight:500;padding:8px 18px;border:none;background:transparent;color:var(--ink-3);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:all .15s;font-family:'DM Sans',sans-serif}
-.ctab.active{color:var(--accent);border-bottom-color:var(--accent)}
-.code-panel{display:none}
-.code-panel.active{display:block}
-.cb{border-radius:14px;background:#0a0a0f;padding:24px;overflow-x:auto;margin-bottom:14px}
-.cb pre{font-family:'DM Mono',monospace;font-size:13px;line-height:1.75;color:#e2e2e6}
-.kw{color:#818cf8}.fn{color:#34d399}.str{color:#fb923c}.tg{color:#60a5fa}.at{color:#c084fc}.cm{color:#4b5563}.nm{color:#f472b6}
-.code-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+      /* CODE SECTION */
+      .code-sec {
+        padding: 0 40px 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .code-tabs {
+        display: flex;
+        gap: 4px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0;
+      }
+      .ctab {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 8px 18px;
+        border: none;
+        background: transparent;
+        color: var(--ink-3);
+        cursor: pointer;
+        border-bottom: 2px solid transparent;
+        margin-bottom: -1px;
+        transition: all 0.15s;
+        font-family: "DM Sans", sans-serif;
+      }
+      .ctab.active {
+        color: var(--accent);
+        border-bottom-color: var(--accent);
+      }
+      .code-panel {
+        display: none;
+      }
+      .code-panel.active {
+        display: block;
+      }
+      .cb {
+        border-radius: 14px;
+        background: #0a0a0f;
+        padding: 24px;
+        overflow-x: auto;
+        margin-bottom: 14px;
+      }
+      .cb pre {
+        font-family: "DM Mono", monospace;
+        font-size: 13px;
+        line-height: 1.75;
+        color: #e2e2e6;
+      }
+      .kw {
+        color: #818cf8;
+      }
+      .fn {
+        color: #34d399;
+      }
+      .str {
+        color: #fb923c;
+      }
+      .tg {
+        color: #60a5fa;
+      }
+      .at {
+        color: #c084fc;
+      }
+      .cm {
+        color: #4b5563;
+      }
+      .nm {
+        color: #f472b6;
+      }
+      .code-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
 
-/* FEATURES */
-.feat-sec{padding:0 40px 60px;max-width:1200px;margin:0 auto}
-.fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
-.fcard{border-radius:14px;border:1px solid var(--border);padding:24px;background:var(--surface);transition:border-color .15s}
-.fcard:hover{border-color:rgba(10,10,15,0.2)}
-.fi{width:36px;height:36px;border-radius:9px;background:var(--surface-2);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
-.fi svg{width:18px;height:18px;stroke:var(--ink);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.ft{font-family:'Syne',sans-serif;font-size:15px;font-weight:600;margin-bottom:6px;letter-spacing:-0.3px}
-.fd{font-size:13px;color:var(--ink-2);line-height:1.6}
-code{font-family:'DM Mono',monospace;font-size:11px;background:var(--surface-2);padding:2px 6px;border-radius:4px;color:var(--accent)}
+      /* FEATURES */
+      .feat-sec {
+        padding: 0 40px 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .fgrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        margin-top: 32px;
+      }
+      .fcard {
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        padding: 24px;
+        background: var(--surface);
+        transition: border-color 0.15s;
+      }
+      .fcard:hover {
+        border-color: rgba(10, 10, 15, 0.2);
+      }
+      .fi {
+        width: 36px;
+        height: 36px;
+        border-radius: 9px;
+        background: var(--surface-2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 14px;
+      }
+      .fi svg {
+        width: 18px;
+        height: 18px;
+        stroke: var(--ink);
+        fill: none;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .ft {
+        font-family: "Syne", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 6px;
+        letter-spacing: -0.3px;
+      }
+      .fd {
+        font-size: 13px;
+        color: var(--ink-2);
+        line-height: 1.6;
+      }
+      code {
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        background: var(--surface-2);
+        padding: 2px 6px;
+        border-radius: 4px;
+        color: var(--accent);
+      }
 
-/* INSTALL CTA */
-.cta{background:var(--ink);border-radius:22px;padding:56px;text-align:center;margin:0 40px 80px}
-.cta h2{color:#fff}
-.cta .ssub{color:rgba(255,255,255,0.55);margin:0 auto 32px}
-.tabs{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:9px;padding:3px;gap:2px;margin-bottom:18px}
-.tab{font-size:12px;font-weight:500;padding:6px 16px;border-radius:6px;border:none;cursor:pointer;background:transparent;color:rgba(255,255,255,0.5);font-family:'DM Sans',sans-serif;transition:all .15s}
-.tab.active{background:rgba(255,255,255,0.12);color:#fff}
-.icmd{background:rgba(255,255,255,0.07);border-radius:10px;padding:13px 22px;font-family:'DM Mono',monospace;font-size:14px;color:rgba(255,255,255,0.9);display:inline-flex;align-items:center;gap:16px;cursor:pointer;transition:background .15s}
-.icmd:hover{background:rgba(255,255,255,0.11)}
-.icmd-pfx{color:#818cf8}
-.ci{width:14px;height:14px;stroke:rgba(255,255,255,0.4);fill:none;stroke-width:1.8;stroke-linecap:round;flex-shrink:0;transition:stroke .15s}
-.icmd:hover .ci{stroke:rgba(255,255,255,0.85)}
+      /* INSTALL CTA */
+      .cta {
+        background: var(--ink);
+        border-radius: 22px;
+        padding: 56px;
+        text-align: center;
+        margin: 0 40px 80px;
+      }
+      .cta h2 {
+        color: #fff;
+      }
+      .cta .ssub {
+        color: rgba(255, 255, 255, 0.55);
+        margin: 0 auto 32px;
+      }
+      .tabs {
+        display: inline-flex;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 9px;
+        padding: 3px;
+        gap: 2px;
+        margin-bottom: 18px;
+      }
+      .tab {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 6px 16px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "DM Sans", sans-serif;
+        transition: all 0.15s;
+      }
+      .tab.active {
+        background: rgba(255, 255, 255, 0.12);
+        color: #fff;
+      }
+      .icmd {
+        background: rgba(255, 255, 255, 0.07);
+        border-radius: 10px;
+        padding: 13px 22px;
+        font-family: "DM Mono", monospace;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.9);
+        display: inline-flex;
+        align-items: center;
+        gap: 16px;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .icmd:hover {
+        background: rgba(255, 255, 255, 0.11);
+      }
+      .icmd-pfx {
+        color: #818cf8;
+      }
+      .ci {
+        width: 14px;
+        height: 14px;
+        stroke: rgba(255, 255, 255, 0.4);
+        fill: none;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        flex-shrink: 0;
+        transition: stroke 0.15s;
+      }
+      .icmd:hover .ci {
+        stroke: rgba(255, 255, 255, 0.85);
+      }
 
-/* PROPS TABLE */
-.ptable{width:100%;border-collapse:collapse;font-size:13px;margin-top:16px}
-.ptable th{text-align:left;padding:8px 14px;font-weight:500;font-size:11px;font-family:'DM Mono',monospace;color:var(--ink-3);border-bottom:1px solid var(--border)}
-.ptable td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:middle}
-.ptable tr:last-child td{border-bottom:none}
-.ptable tr:hover td{background:var(--surface-2)}
+      /* PROPS TABLE */
+      .ptable {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+        margin-top: 16px;
+      }
+      .ptable th {
+        text-align: left;
+        padding: 8px 14px;
+        font-weight: 500;
+        font-size: 11px;
+        font-family: "DM Mono", monospace;
+        color: var(--ink-3);
+        border-bottom: 1px solid var(--border);
+      }
+      .ptable td {
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--border);
+        vertical-align: middle;
+      }
+      .ptable tr:last-child td {
+        border-bottom: none;
+      }
+      .ptable tr:hover td {
+        background: var(--surface-2);
+      }
 
-/* FOOTER */
-footer{border-top:1px solid var(--border);padding:36px 40px;display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto}
-.fl{font-family:'Syne',sans-serif;font-weight:800;font-size:15px;color:var(--ink);letter-spacing:-0.5px}
-.flinks{display:flex;gap:22px}
-.flinks a{font-size:12px;color:var(--ink-3);text-decoration:none;transition:color .15s}
-.flinks a:hover{color:var(--ink)}
-.fc{font-size:11px;color:var(--ink-3)}
+      /* FOOTER */
+      footer {
+        border-top: 1px solid var(--border);
+        padding: 36px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .fl {
+        font-family: "Syne", sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        color: var(--ink);
+        letter-spacing: -0.5px;
+      }
+      .flinks {
+        display: flex;
+        gap: 22px;
+      }
+      .flinks a {
+        font-size: 12px;
+        color: var(--ink-3);
+        text-decoration: none;
+        transition: color 0.15s;
+      }
+      .flinks a:hover {
+        color: var(--ink);
+      }
+      .fc {
+        font-size: 11px;
+        color: var(--ink-3);
+      }
 
-/* TOAST */
-.toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--ink);color:#fff;font-size:12px;font-weight:500;padding:8px 18px;border-radius:100px;z-index:999;transition:transform .3s cubic-bezier(.34,1.56,.64,1);pointer-events:none}
-.toast.show{transform:translateX(-50%) translateY(0)}
+      /* TOAST */
+      .toast {
+        position: fixed;
+        bottom: 28px;
+        left: 50%;
+        transform: translateX(-50%) translateY(80px);
+        background: var(--ink);
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 18px;
+        border-radius: 100px;
+        z-index: 999;
+        transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        pointer-events: none;
+      }
+      .toast.show {
+        transform: translateX(-50%) translateY(0);
+      }
 
-/* FAQ SECTION — great for SEO */
-.faq-sec{padding:0 40px 60px;max-width:1200px;margin:0 auto}
-.faq-item{border-bottom:1px solid var(--border);padding:20px 0}
-.faq-q{font-family:'Syne',sans-serif;font-size:17px;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;letter-spacing:-0.3px}
-.faq-q::after{content:'+';font-size:20px;color:var(--ink-3);transition:transform .2s;font-weight:300}
-.faq-item.open .faq-q::after{transform:rotate(45deg)}
-.faq-a{font-size:14px;color:var(--ink-2);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s}
-.faq-item.open .faq-a{max-height:200px;padding-top:12px}
+      /* FAQ SECTION — great for SEO */
+      .faq-sec {
+        padding: 0 40px 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .faq-item {
+        border-bottom: 1px solid var(--border);
+        padding: 20px 0;
+      }
+      .faq-q {
+        font-family: "Syne", sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: var(--ink);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: -0.3px;
+      }
+      .faq-q::after {
+        content: "+";
+        font-size: 20px;
+        color: var(--ink-3);
+        transition: transform 0.2s;
+        font-weight: 300;
+      }
+      .faq-item.open .faq-q::after {
+        transform: rotate(45deg);
+      }
+      .faq-a {
+        font-size: 14px;
+        color: var(--ink-2);
+        line-height: 1.7;
+        max-height: 0;
+        overflow: hidden;
+        transition:
+          max-height 0.3s ease,
+          padding 0.3s;
+      }
+      .faq-item.open .faq-a {
+        max-height: 200px;
+        padding-top: 12px;
+      }
 
-@media(max-width:768px){
-  .hero{grid-template-columns:1fr;gap:40px;padding-top:100px}
-  .pkg-grid,.code-grid,.compat-grid,.fgrid{grid-template-columns:1fr}
-  .cta{padding:40px 24px;margin:0 20px 60px}
-  nav{padding:0 20px}
-  .packages-section,.browser,.code-sec,.feat-sec,.faq-sec,.cta{padding-left:20px;padding-right:20px}
-  .stats-bar{gap:24px;flex-wrap:wrap;padding:20px}
-}
-</style>
-</head>
-<body>
-
-<!-- NAV -->
-<nav>
-  <a href="#" class="nav-logo"><span class="nav-dot"></span>Iconora</a>
-  <div class="nav-links">
-    <a href="#packages">Packages</a>
-    <a href="#icons">Icons</a>
-    <a href="#usage">Usage</a>
-    <a href="#faq">FAQ</a>
-    <a href="https://github.com/sudhanshuku01/iconora" target="_blank" rel="noopener">GitHub</a>
-  </div>
-  <a href="#install" class="nav-cta">Get Started →</a>
-</nav>
-
-<!-- HERO -->
-<div class="hero">
-  <div>
-    <div class="hero-badge"><span class="badge-dot"></span>v1.0.0 — Production Ready</div>
-    <h1>Icons that<br/><em>just work.</em></h1>
-    <p class="hero-sub">60+ hand-crafted SVG icons for React, Vue, Svelte and Vanilla JS. Tree-shakeable, accessible, fully typed — zero config.</p>
-    <div class="hero-actions">
-      <button class="btn-p" onclick="document.getElementById('icons').scrollIntoView({behavior:'smooth'})">Browse Icons</button>
-      <button class="btn-s" onclick="document.getElementById('usage').scrollIntoView({behavior:'smooth'})">View Docs</button>
-      <button class="install-pill" onclick="copyText('npm install @iconora/react','Copied!')"><span>$</span> npm i @iconora/react</button>
-    </div>
-  </div>
-  <div class="hero-mosaic" id="mosaic"></div>
-</div>
-
-<!-- STATS -->
-<div class="stats-bar">
-  <div><div class="stat-n">60+</div><div class="stat-l">Icons</div></div>
-  <div><div class="stat-n">10</div><div class="stat-l">Categories</div></div>
-  <div><div class="stat-n">2</div><div class="stat-l">npm Packages</div></div>
-  <div><div class="stat-n">~1kb</div><div class="stat-l">Per icon gzipped</div></div>
-  <div><div class="stat-n">MIT</div><div class="stat-l">License</div></div>
-</div>
-
-<!-- PACKAGES SECTION -->
-<section class="packages-section" id="packages">
-  <p class="stag">// packages</p>
-  <h2>Two Packages. One System.</h2>
-  <p class="ssub">Iconora ships as two separate npm packages so you only install what you need.</p>
-
-  <div class="pkg-grid">
-    <!-- @iconora/core -->
-    <article class="pkg-card">
-      <div class="pkg-name">@iconora/core</div>
-      <div class="pkg-version"><span class="badge-dot" style="background:var(--green)"></span>v1.0.0</div>
-      <p class="pkg-desc">The framework-agnostic foundation. Ships raw SVG path data, icon metadata, search utilities and TypeScript types. Zero dependencies — works in any JavaScript environment.</p>
-      <div class="pkg-install" onclick="copyText('npm install @iconora/core','Copied!')">
-        <span>$</span> npm install @iconora/core
-        <svg style="width:13px;height:13px;stroke:rgba(255,255,255,0.4);fill:none;stroke-width:1.8;stroke-linecap:round" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+      @media (max-width: 768px) {
+        .hero {
+          grid-template-columns: 1fr;
+          gap: 40px;
+          padding-top: 100px;
+        }
+        .pkg-grid,
+        .code-grid,
+        .compat-grid,
+        .fgrid {
+          grid-template-columns: 1fr;
+        }
+        .cta {
+          padding: 40px 24px;
+          margin: 0 20px 60px;
+        }
+        nav {
+          padding: 0 20px;
+        }
+        .packages-section,
+        .browser,
+        .code-sec,
+        .feat-sec,
+        .faq-sec,
+        .cta {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .stats-bar {
+          gap: 24px;
+          flex-wrap: wrap;
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <a href="#" class="nav-logo"><span class="nav-dot"></span>Iconora</a>
+      <div class="nav-links">
+        <a href="#packages">Packages</a>
+        <a href="#icons">Icons</a>
+        <a href="#usage">Usage</a>
+        <a href="#faq">FAQ</a>
+        <a
+          href="https://github.com/sudhanshuku01/iconora"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >
       </div>
-      <div class="pkg-tags">
-        <span class="pkg-tag">Zero deps</span>
-        <span class="pkg-tag">TypeScript</span>
-        <span class="pkg-tag">ESM + CJS</span>
-        <span class="pkg-tag">Tree-shakeable</span>
-      </div>
-      <div class="pkg-use-cases">
-        <div class="pkg-use-title">// use this for</div>
-        <ul class="pkg-use-list">
-          <li>Vue, Svelte, Angular projects</li>
-          <li>Vanilla HTML / plain JavaScript</li>
-          <li>Node.js scripts and tools</li>
-          <li>Building your own framework adapter</li>
-        </ul>
-      </div>
-    </article>
+      <a href="#install" class="nav-cta">Get Started →</a>
+    </nav>
 
-    <!-- @iconora/react -->
-    <article class="pkg-card">
-      <div class="pkg-name">@iconora/react</div>
-      <div class="pkg-version"><span class="badge-dot" style="background:var(--green)"></span>v1.0.0</div>
-      <p class="pkg-desc">Production-grade React components built on top of @iconora/core. Named exports, a generic Icon component, forwardRef, memo, full a11y, and TypeScript inference on every prop.</p>
-      <div class="pkg-install" onclick="copyText('npm install @iconora/react','Copied!')">
-        <span>$</span> npm install @iconora/react
-        <svg style="width:13px;height:13px;stroke:rgba(255,255,255,0.4);fill:none;stroke-width:1.8;stroke-linecap:round" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
-      </div>
-      <div class="pkg-tags">
-        <span class="pkg-tag">React 17+</span>
-        <span class="pkg-tag">Next.js</span>
-        <span class="pkg-tag">Remix</span>
-        <span class="pkg-tag">forwardRef</span>
-        <span class="pkg-tag">memo</span>
-      </div>
-      <div class="pkg-use-cases">
-        <div class="pkg-use-title">// use this for</div>
-        <ul class="pkg-use-list">
-          <li>React 17+ applications</li>
-          <li>Next.js and Remix projects</li>
-          <li>Named imports for best tree-shaking</li>
-          <li>Dynamic icon names at runtime</li>
-        </ul>
-      </div>
-    </article>
-  </div>
-
-  <!-- Framework compatibility -->
-  <p class="stag">// compatibility</p>
-  <h2>Works Everywhere.</h2>
-  <p class="ssub">@iconora/core is pure SVG data — use it in any framework, any environment.</p>
-  <div class="compat-grid">
-    <div class="compat-card">
-      <div class="compat-icon">⚛️</div>
-      <div class="compat-name">React</div>
-      <div class="compat-pkg">@iconora/react</div>
-      <div class="compat-badge badge-full">Full support</div>
-    </div>
-    <div class="compat-card">
-      <div class="compat-icon">💚</div>
-      <div class="compat-name">Vue</div>
-      <div class="compat-pkg">@iconora/core</div>
-      <div class="compat-badge badge-core">Via core</div>
-    </div>
-    <div class="compat-card">
-      <div class="compat-icon">🧡</div>
-      <div class="compat-name">Svelte</div>
-      <div class="compat-pkg">@iconora/core</div>
-      <div class="compat-badge badge-core">Via core</div>
-    </div>
-    <div class="compat-card">
-      <div class="compat-icon">🌐</div>
-      <div class="compat-name">Vanilla JS</div>
-      <div class="compat-pkg">@iconora/core</div>
-      <div class="compat-badge badge-core">Via core</div>
-    </div>
-  </div>
-</section>
-
-<!-- ICON BROWSER -->
-<div class="browser" id="icons">
-  <p class="stag">// browse</p>
-  <h2>Every Icon</h2>
-  <p class="ssub">Click any icon to copy its React import. Search by name or tag.</p>
-  <div class="sw">
-    <svg class="si" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-    <input class="search" id="searchInput" placeholder="Search icons… (arrow, lock, chart, camera…)" oninput="filterIcons()"/>
-  </div>
-  <div class="filters" id="filterBar"></div>
-  <div class="igrid" id="iconGrid"></div>
-</div>
-
-<!-- CODE / USAGE -->
-<div class="code-sec" id="usage">
-  <p class="stag">// usage</p>
-  <h2>Simple API</h2>
-  <p class="ssub">Examples for every package. Switch between React and core below.</p>
-
-  <div class="code-tabs">
-    <button class="ctab active" onclick="switchTab(this,'react')">@iconora/react</button>
-    <button class="ctab" onclick="switchTab(this,'core')">@iconora/core</button>
-    <button class="ctab" onclick="switchTab(this,'vue')">Vue</button>
-    <button class="ctab" onclick="switchTab(this,'vanilla')">Vanilla JS</button>
-  </div>
-
-  <!-- React panel -->
-  <div class="code-panel active" id="panel-react">
-    <div class="code-grid">
+    <!-- HERO -->
+    <div class="hero">
       <div>
-        <div class="cb"><pre><span class="cm">// Named import — best tree-shaking</span>
+        <div class="hero-badge">
+          <span class="badge-dot"></span>Production Ready
+        </div>
+        <h1>Icons that<br /><em>just work.</em></h1>
+        <p class="hero-sub">
+          Hand-crafted SVG icons for React, Vue, Svelte and Vanilla JS.
+          Tree-shakeable, accessible, fully typed - zero config.
+        </p>
+        <div class="hero-actions">
+          <button
+            class="btn-p"
+            onclick="
+              document
+                .getElementById('icons')
+                .scrollIntoView({ behavior: 'smooth' })
+            "
+          >
+            Browse Icons
+          </button>
+          <button
+            class="btn-s"
+            onclick="
+              document
+                .getElementById('usage')
+                .scrollIntoView({ behavior: 'smooth' })
+            "
+          >
+            View Docs
+          </button>
+          <button
+            class="install-pill"
+            onclick="copyText('npm install @iconora/react', 'Copied!')"
+          >
+            <span>$</span> npm i @iconora/react
+          </button>
+        </div>
+      </div>
+      <div class="hero-mosaic" id="mosaic"></div>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats-bar">
+      <div>
+        <div class="stat-n" id="iconCount">0</div>
+        <div class="stat-l">Icons</div>
+      </div>
+      <div>
+        <div class="stat-n" id="categoryCount">0</div>
+        <div class="stat-l">Categories</div>
+      </div>
+      <div>
+        <div class="stat-n">2</div>
+        <div class="stat-l">npm Packages</div>
+      </div>
+      <div>
+        <div class="stat-n">~1kb</div>
+        <div class="stat-l">Per icon gzipped</div>
+      </div>
+      <div>
+        <div class="stat-n">MIT</div>
+        <div class="stat-l">License</div>
+      </div>
+    </div>
+
+    <!-- PACKAGES SECTION -->
+    <section class="packages-section" id="packages">
+      <p class="stag">// packages</p>
+      <h2>Two Packages. One System.</h2>
+      <p class="ssub">
+        Iconora ships as two separate npm packages so you only install what you
+        need.
+      </p>
+
+      <div class="pkg-grid">
+        <!-- @iconora/core -->
+        <article class="pkg-card">
+          <div class="pkg-name">@iconora/core</div>
+          <p class="pkg-desc">
+            The framework-agnostic foundation. Ships raw SVG path data, icon
+            metadata, search utilities and TypeScript types. Zero dependencies —
+            works in any JavaScript environment.
+          </p>
+          <div
+            class="pkg-install"
+            onclick="copyText('npm install @iconora/core', 'Copied!')"
+          >
+            <span>$</span> npm install @iconora/core
+            <svg
+              style="
+                width: 13px;
+                height: 13px;
+                stroke: rgba(255, 255, 255, 0.4);
+                fill: none;
+                stroke-width: 1.8;
+                stroke-linecap: round;
+              "
+              viewBox="0 0 24 24"
+            >
+              <rect x="9" y="9" width="13" height="13" rx="2" />
+              <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" />
+            </svg>
+          </div>
+          <div class="pkg-tags">
+            <span class="pkg-tag">Zero deps</span>
+            <span class="pkg-tag">TypeScript</span>
+            <span class="pkg-tag">ESM + CJS</span>
+            <span class="pkg-tag">Tree-shakeable</span>
+          </div>
+          <div class="pkg-use-cases">
+            <div class="pkg-use-title">// use this for</div>
+            <ul class="pkg-use-list">
+              <li>Vue, Svelte, Angular projects</li>
+              <li>Vanilla HTML / plain JavaScript</li>
+              <li>Node.js scripts and tools</li>
+              <li>Building your own framework adapter</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- @iconora/react -->
+        <article class="pkg-card">
+          <div class="pkg-name">@iconora/react</div>
+          <p class="pkg-desc">
+            Production-grade React components built on top of @iconora/core.
+            Named exports, a generic Icon component, forwardRef, memo, full
+            a11y, and TypeScript inference on every prop.
+          </p>
+          <div
+            class="pkg-install"
+            onclick="copyText('npm install @iconora/react', 'Copied!')"
+          >
+            <span>$</span> npm install @iconora/react
+            <svg
+              style="
+                width: 13px;
+                height: 13px;
+                stroke: rgba(255, 255, 255, 0.4);
+                fill: none;
+                stroke-width: 1.8;
+                stroke-linecap: round;
+              "
+              viewBox="0 0 24 24"
+            >
+              <rect x="9" y="9" width="13" height="13" rx="2" />
+              <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" />
+            </svg>
+          </div>
+          <div class="pkg-tags">
+            <span class="pkg-tag">React 17+</span>
+            <span class="pkg-tag">Next.js</span>
+            <span class="pkg-tag">Remix</span>
+            <span class="pkg-tag">forwardRef</span>
+            <span class="pkg-tag">memo</span>
+          </div>
+          <div class="pkg-use-cases">
+            <div class="pkg-use-title">// use this for</div>
+            <ul class="pkg-use-list">
+              <li>React 17+ applications</li>
+              <li>Next.js and Remix projects</li>
+              <li>Named imports for best tree-shaking</li>
+              <li>Dynamic icon names at runtime</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- Framework compatibility -->
+      <p class="stag">// compatibility</p>
+      <h2>Works Everywhere.</h2>
+      <p class="ssub">
+        @iconora/core is pure SVG data — use it in any framework, any
+        environment.
+      </p>
+      <div class="compat-grid">
+        <div class="compat-card">
+          <div class="compat-icon">⚛️</div>
+          <div class="compat-name">React</div>
+          <div class="compat-pkg">@iconora/react</div>
+          <div class="compat-badge badge-full">Full support</div>
+        </div>
+        <div class="compat-card">
+          <div class="compat-icon">💚</div>
+          <div class="compat-name">Vue</div>
+          <div class="compat-pkg">@iconora/core</div>
+          <div class="compat-badge badge-core">Via core</div>
+        </div>
+        <div class="compat-card">
+          <div class="compat-icon">🧡</div>
+          <div class="compat-name">Svelte</div>
+          <div class="compat-pkg">@iconora/core</div>
+          <div class="compat-badge badge-core">Via core</div>
+        </div>
+        <div class="compat-card">
+          <div class="compat-icon">🌐</div>
+          <div class="compat-name">Vanilla JS</div>
+          <div class="compat-pkg">@iconora/core</div>
+          <div class="compat-badge badge-core">Via core</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ICON BROWSER -->
+    <div class="browser" id="icons">
+      <p class="stag">// browse</p>
+      <h2>Every Icon</h2>
+      <p class="ssub">
+        Click any icon to copy its React import. Search by name, tag, or
+        category.
+      </p>
+      <div class="sw">
+        <svg class="si" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8" />
+          <path d="M21 21l-4.35-4.35" />
+        </svg>
+        <input
+          class="search"
+          id="searchInput"
+          placeholder="Search icons... (arrow, lock, chart, security...)"
+          oninput="filterIcons()"
+        />
+      </div>
+      <div class="browser-meta">
+        <div class="browser-count" id="resultsCount">Showing 0 icons</div>
+      </div>
+      <div class="filters" id="filterBar"></div>
+      <div class="igrid" id="iconGrid"></div>
+      <div class="browser-actions">
+        <button
+          class="load-more"
+          id="loadMoreBtn"
+          onclick="loadMoreIcons()"
+          hidden
+        >
+          Load More
+        </button>
+      </div>
+    </div>
+
+    <!-- CODE / USAGE -->
+    <div class="code-sec" id="usage">
+      <p class="stag">// usage</p>
+      <h2>Simple API</h2>
+      <p class="ssub">
+        Examples for every package. Switch between React and core below.
+      </p>
+
+      <div class="code-tabs">
+        <button class="ctab active" onclick="switchTab(this, 'react')">
+          @iconora/react
+        </button>
+        <button class="ctab" onclick="switchTab(this, 'core')">
+          @iconora/core
+        </button>
+        <button class="ctab" onclick="switchTab(this, 'vue')">Vue</button>
+        <button class="ctab" onclick="switchTab(this, 'vanilla')">
+          Vanilla JS
+        </button>
+      </div>
+
+      <!-- React panel -->
+      <div class="code-panel active" id="panel-react">
+        <div class="code-grid">
+          <div>
+            <div class="cb">
+              <pre><span class="cm">// Named import — best tree-shaking</span>
 <span class="kw">import</span> { <span class="fn">HomeIcon</span>, <span class="fn">SearchIcon</span> } <span class="kw">from</span> <span class="str">'@iconora/react'</span>;
 
 <span class="kw">export function</span> <span class="fn">Nav</span>() {
@@ -417,35 +1387,85 @@ footer{border-top:1px solid var(--border);padding:36px 40px;display:flex;align-i
       <span class="tg">/&gt;</span>
     <span class="tg">&lt;/nav&gt;</span>
   );
-}</pre></div>
-        <div class="cb"><pre><span class="cm">// Generic Icon — dynamic names</span>
+}</pre>
+            </div>
+            <div class="cb">
+              <pre><span class="cm">// Generic Icon — dynamic names</span>
 <span class="kw">import</span> { <span class="fn">Icon</span> } <span class="kw">from</span> <span class="str">'@iconora/react'</span>;
 
 <span class="tg">&lt;Icon</span> <span class="at">name</span>=<span class="str">"home"</span> <span class="at">size</span>=<span class="nm">{20}</span> <span class="tg">/&gt;</span>
-<span class="tg">&lt;Icon</span> <span class="at">name</span>=<span class="str">"heart"</span> <span class="at">color</span>=<span class="str">"red"</span> <span class="at">label</span>=<span class="str">"Liked"</span> <span class="tg">/&gt;</span></pre></div>
-      </div>
-      <div>
-        <div style="border-radius:14px;border:1px solid var(--border);padding:24px;background:var(--surface)">
-          <div style="font-size:11px;font-family:'DM Mono',monospace;color:var(--ink-3);margin-bottom:12px">// props</div>
-          <table class="ptable">
-            <thead><tr><th>Prop</th><th>Default</th><th>Description</th></tr></thead>
-            <tbody>
-              <tr><td><code>size</code></td><td><code>24</code></td><td>Width & height px</td></tr>
-              <tr><td><code>color</code></td><td><code>currentColor</code></td><td>Stroke color</td></tr>
-              <tr><td><code>strokeWidth</code></td><td><code>2</code></td><td>SVG stroke-width</td></tr>
-              <tr><td><code>label</code></td><td>—</td><td>aria-label + role</td></tr>
-              <tr><td><code>className</code></td><td>—</td><td>Extra CSS class</td></tr>
-              <tr><td><code>...rest</code></td><td>—</td><td>Any SVG attribute</td></tr>
-            </tbody>
-          </table>
+<span class="tg">&lt;Icon</span> <span class="at">name</span>=<span class="str">"heart"</span> <span class="at">color</span>=<span class="str">"red"</span> <span class="at">label</span>=<span class="str">"Liked"</span> <span class="tg">/&gt;</span></pre>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                border-radius: 14px;
+                border: 1px solid var(--border);
+                padding: 24px;
+                background: var(--surface);
+              "
+            >
+              <div
+                style="
+                  font-size: 11px;
+                  font-family: &quot;DM Mono&quot;, monospace;
+                  color: var(--ink-3);
+                  margin-bottom: 12px;
+                "
+              >
+                // props
+              </div>
+              <table class="ptable">
+                <thead>
+                  <tr>
+                    <th>Prop</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>size</code></td>
+                    <td><code>24</code></td>
+                    <td>Width & height px</td>
+                  </tr>
+                  <tr>
+                    <td><code>color</code></td>
+                    <td><code>currentColor</code></td>
+                    <td>Stroke color</td>
+                  </tr>
+                  <tr>
+                    <td><code>strokeWidth</code></td>
+                    <td><code>2</code></td>
+                    <td>SVG stroke-width</td>
+                  </tr>
+                  <tr>
+                    <td><code>label</code></td>
+                    <td>—</td>
+                    <td>aria-label + role</td>
+                  </tr>
+                  <tr>
+                    <td><code>className</code></td>
+                    <td>—</td>
+                    <td>Extra CSS class</td>
+                  </tr>
+                  <tr>
+                    <td><code>...rest</code></td>
+                    <td>—</td>
+                    <td>Any SVG attribute</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!-- Core panel -->
-  <div class="code-panel" id="panel-core">
-    <div class="cb"><pre><span class="kw">import</span> { <span class="fn">icons</span>, <span class="fn">searchIcons</span>, <span class="fn">getIconsByCategory</span> } <span class="kw">from</span> <span class="str">'@iconora/core'</span>;
+      <!-- Core panel -->
+      <div class="code-panel" id="panel-core">
+        <div class="cb">
+          <pre><span class="kw">import</span> { <span class="fn">icons</span>, <span class="fn">searchIcons</span>, <span class="fn">getIconsByCategory</span> } <span class="kw">from</span> <span class="str">'@iconora/core'</span>;
 
 <span class="cm">// Access raw SVG path data</span>
 <span class="kw">const</span> home = icons.<span class="fn">home</span>;
@@ -457,12 +1477,14 @@ console.<span class="fn">log</span>(home.tags); <span class="cm">// ['house', 'm
 <span class="kw">const</span> results = <span class="fn">searchIcons</span>(<span class="str">'arrow'</span>);
 
 <span class="cm">// Get all icons in a category</span>
-<span class="kw">const</span> interfaceIcons = <span class="fn">getIconsByCategory</span>(<span class="str">'interface'</span>);</pre></div>
-  </div>
+<span class="kw">const</span> interfaceIcons = <span class="fn">getIconsByCategory</span>(<span class="str">'interface'</span>);</pre>
+        </div>
+      </div>
 
-  <!-- Vue panel -->
-  <div class="code-panel" id="panel-vue">
-    <div class="cb"><pre><span class="cm">&lt;!-- Vue 3 — using @iconora/core --&gt;</span>
+      <!-- Vue panel -->
+      <div class="code-panel" id="panel-vue">
+        <div class="cb">
+          <pre><span class="cm">&lt;!-- Vue 3 — using @iconora/core --&gt;</span>
 <span class="tg">&lt;template&gt;</span>
   <span class="tg">&lt;svg</span>
     <span class="at">viewBox</span>=<span class="str">"0 0 24 24"</span> <span class="at">:width</span>=<span class="str">"size"</span> <span class="at">:height</span>=<span class="str">"size"</span>
@@ -477,12 +1499,14 @@ console.<span class="fn">log</span>(home.tags); <span class="cm">// ['house', 'm
 <span class="kw">import</span> { <span class="fn">icons</span> } <span class="kw">from</span> <span class="str">'@iconora/core'</span>;
 <span class="kw">const props</span> = <span class="fn">defineProps</span>({ name: String, size: { default: 24 } });
 <span class="kw">const</span> icon = icons[props.name];
-<span class="tg">&lt;/script&gt;</span></pre></div>
-  </div>
+<span class="tg">&lt;/script&gt;</span></pre>
+        </div>
+      </div>
 
-  <!-- Vanilla panel -->
-  <div class="code-panel" id="panel-vanilla">
-    <div class="cb"><pre><span class="cm">&lt;!-- Vanilla HTML — no bundler needed --&gt;</span>
+      <!-- Vanilla panel -->
+      <div class="code-panel" id="panel-vanilla">
+        <div class="cb">
+          <pre><span class="cm">&lt;!-- Vanilla HTML — no bundler needed --&gt;</span>
 <span class="tg">&lt;div</span> <span class="at">id</span>=<span class="str">"icon"</span><span class="tg">&gt;&lt;/div&gt;</span>
 
 <span class="tg">&lt;script type</span>=<span class="str">"module"</span><span class="tg">&gt;</span>
@@ -497,238 +1521,392 @@ console.<span class="fn">log</span>(home.tags); <span class="cm">// ['house', 'm
       <span class="nm">${</span>paths.<span class="fn">map</span>(d =&gt; <span class="str">\`&lt;path d="</span><span class="nm">${</span>d<span class="nm">}</span><span class="str">"/&gt;\`</span>).<span class="fn">join</span>(<span class="str">''</span>)<span class="nm">}</span>
     &lt;/svg&gt;
   `</span>;
-<span class="tg">&lt;/script&gt;</span></pre></div>
-  </div>
-</div>
+<span class="tg">&lt;/script&gt;</span></pre>
+        </div>
+      </div>
+    </div>
 
-<!-- FEATURES -->
-<div class="feat-sec">
-  <p class="stag">// why iconora</p>
-  <h2>Built Right.</h2>
-  <div class="fgrid">
-    <div class="fcard"><div class="fi"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><div class="ft">Tree-shakeable</div><p class="fd">Import only icons you use. <code>sideEffects:false</code> and proper ESM exports mean zero dead code in your bundle.</p></div>
-    <div class="fcard"><div class="fi"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="ft">Accessible by default</div><p class="fd">Decorative icons get <code>aria-hidden</code>. Pass <code>label</code> and get <code>aria-label</code> + <code>role="img"</code> automatically.</p></div>
-    <div class="fcard"><div class="fi"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div><div class="ft">TypeScript first</div><p class="fd">Full type inference on every prop. Generated <code>.d.ts</code> files. Autocomplete in every editor.</p></div>
-    <div class="fcard"><div class="fi"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div><div class="ft">Framework-agnostic</div><p class="fd"><code>@iconora/core</code> has zero dependencies. Works in React, Vue, Svelte, Angular, or plain JavaScript.</p></div>
-    <div class="fcard"><div class="fi"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div><div class="ft">Consistent design</div><p class="fd">Every icon on a 24×24 grid. Identical stroke widths, cap styles, and optical weight throughout.</p></div>
-    <div class="fcard"><div class="fi"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div><div class="ft">MIT Licensed</div><p class="fd">Free forever. Use in personal and commercial projects. No attribution required.</p></div>
-  </div>
-</div>
+    <!-- FEATURES -->
+    <div class="feat-sec">
+      <p class="stag">// why iconora</p>
+      <h2>Built Right.</h2>
+      <div class="fgrid">
+        <div class="fcard">
+          <div class="fi">
+            <svg viewBox="0 0 24 24">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+          </div>
+          <div class="ft">Tree-shakeable</div>
+          <p class="fd">
+            Import only icons you use. <code>sideEffects:false</code> and proper
+            ESM exports mean zero dead code in your bundle.
+          </p>
+        </div>
+        <div class="fcard">
+          <div class="fi">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <div class="ft">Accessible by default</div>
+          <p class="fd">
+            Decorative icons get <code>aria-hidden</code>. Pass
+            <code>label</code> and get <code>aria-label</code> +
+            <code>role="img"</code> automatically.
+          </p>
+        </div>
+        <div class="fcard">
+          <div class="fi">
+            <svg viewBox="0 0 24 24">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <div class="ft">TypeScript first</div>
+          <p class="fd">
+            Full type inference on every prop. Generated
+            <code>.d.ts</code> files. Autocomplete in every editor.
+          </p>
+        </div>
+        <div class="fcard">
+          <div class="fi">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <path
+                d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"
+              />
+            </svg>
+          </div>
+          <div class="ft">Framework-agnostic</div>
+          <p class="fd">
+            <code>@iconora/core</code> has zero dependencies. Works in React,
+            Vue, Svelte, Angular, or plain JavaScript.
+          </p>
+        </div>
+        <div class="fcard">
+          <div class="fi">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 20h9" />
+              <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
+            </svg>
+          </div>
+          <div class="ft">Consistent design</div>
+          <p class="fd">
+            Every icon on a 24×24 grid. Identical stroke widths, cap styles, and
+            optical weight throughout.
+          </p>
+        </div>
+        <div class="fcard">
+          <div class="fi">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"
+              />
+            </svg>
+          </div>
+          <div class="ft">MIT Licensed</div>
+          <p class="fd">
+            Free forever. Use in personal and commercial projects. No
+            attribution required.
+          </p>
+        </div>
+      </div>
+    </div>
 
-<!-- FAQ — great for SEO long tail keywords -->
-<div class="faq-sec" id="faq">
-  <p class="stag">// faq</p>
-  <h2>Frequently Asked Questions</h2>
-  <p class="ssub" style="margin-bottom:32px">Everything you need to know about Iconora.</p>
+    <!-- FAQ — great for SEO long tail keywords -->
+    <div class="faq-sec" id="faq">
+      <p class="stag">// faq</p>
+      <h2>Frequently Asked Questions</h2>
+      <p class="ssub" style="margin-bottom: 32px">
+        Everything you need to know about Iconora.
+      </p>
 
-  <div class="faq-item">
-    <div class="faq-q" onclick="toggleFaq(this)">What is Iconora?</div>
-    <div class="faq-a">Iconora is a free, open-source SVG icon library with 60+ hand-crafted icons. It ships as two npm packages: @iconora/core (framework-agnostic SVG data) and @iconora/react (React components). All icons are MIT licensed and free to use in any project.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-q" onclick="toggleFaq(this)">How do I install Iconora?</div>
-    <div class="faq-a">Run <strong>npm install @iconora/react</strong> for React projects, or <strong>npm install @iconora/core</strong> for Vue, Svelte, Angular or Vanilla JS. Both packages support ESM and CommonJS.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-q" onclick="toggleFaq(this)">Does Iconora work with Next.js?</div>
-    <div class="faq-a">Yes! @iconora/react works perfectly with Next.js (both App Router and Pages Router), Remix, Vite, Create React App, and any other React-based framework.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-q" onclick="toggleFaq(this)">Is Iconora tree-shakeable?</div>
-    <div class="faq-a">Yes. Both packages have sideEffects: false and proper ESM exports. When you import HomeIcon, only that icon's code is included in your bundle. All other icons are completely removed at build time.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-q" onclick="toggleFaq(this)">Can I use Iconora with Vue or Svelte?</div>
-    <div class="faq-a">Yes! Install @iconora/core and use the raw SVG path data to build your own icon component in any framework. The core package has zero dependencies and works anywhere JavaScript runs.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-q" onclick="toggleFaq(this)">Is Iconora free for commercial use?</div>
-    <div class="faq-a">Yes, Iconora is MIT licensed. You can use it in personal projects, commercial products, SaaS apps, and client work — completely free with no attribution required.</div>
-  </div>
-</div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What is Iconora?</div>
+        <div class="faq-a">
+          Iconora is a free, open-source SVG icon library with 60+ hand-crafted
+          icons. It ships as two npm packages: @iconora/core (framework-agnostic
+          SVG data) and @iconora/react (React components). All icons are MIT
+          licensed and free to use in any project.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          How do I install Iconora?
+        </div>
+        <div class="faq-a">
+          Run <strong>npm install @iconora/react</strong> for React projects, or
+          <strong>npm install @iconora/core</strong> for Vue, Svelte, Angular or
+          Vanilla JS. Both packages support ESM and CommonJS.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Does Iconora work with Next.js?
+        </div>
+        <div class="faq-a">
+          Yes! @iconora/react works perfectly with Next.js (both App Router and
+          Pages Router), Remix, Vite, Create React App, and any other
+          React-based framework.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Is Iconora tree-shakeable?
+        </div>
+        <div class="faq-a">
+          Yes. Both packages have sideEffects: false and proper ESM exports.
+          When you import HomeIcon, only that icon's code is included in your
+          bundle. All other icons are completely removed at build time.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Can I use Iconora with Vue or Svelte?
+        </div>
+        <div class="faq-a">
+          Yes! Install @iconora/core and use the raw SVG path data to build your
+          own icon component in any framework. The core package has zero
+          dependencies and works anywhere JavaScript runs.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Is Iconora free for commercial use?
+        </div>
+        <div class="faq-a">
+          Yes, Iconora is MIT licensed. You can use it in personal projects,
+          commercial products, SaaS apps, and client work — completely free with
+          no attribution required.
+        </div>
+      </div>
+    </div>
 
-<!-- INSTALL CTA -->
-<div class="cta" id="install">
-  <p class="stag" style="color:rgba(255,255,255,0.35)">// install</p>
-  <h2>Start in 30 seconds.</h2>
-  <p class="ssub">Drop into any project. Zero config required.</p>
-  <div class="tabs">
-    <button class="tab active" onclick="setTab(this,'npm')">npm</button>
-    <button class="tab" onclick="setTab(this,'yarn')">yarn</button>
-    <button class="tab" onclick="setTab(this,'pnpm')">pnpm</button>
-    <button class="tab" onclick="setTab(this,'bun')">bun</button>
-  </div><br/>
-  <div class="icmd" onclick="copyCmd()">
-    <span id="cmdTxt"><span class="icmd-pfx">$</span> npm install @iconora/react</span>
-    <svg class="ci" viewBox="0 0 24 24" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
-  </div>
-</div>
+    <!-- INSTALL CTA -->
+    <div class="cta" id="install">
+      <p class="stag" style="color: rgba(255, 255, 255, 0.35)">// install</p>
+      <h2>Start in 30 seconds.</h2>
+      <p class="ssub">Drop into any project. Zero config required.</p>
+      <div class="tabs">
+        <button class="tab active" onclick="setTab(this, 'npm')">npm</button>
+        <button class="tab" onclick="setTab(this, 'yarn')">yarn</button>
+        <button class="tab" onclick="setTab(this, 'pnpm')">pnpm</button>
+        <button class="tab" onclick="setTab(this, 'bun')">bun</button>
+      </div>
+      <br />
+      <div class="icmd" onclick="copyCmd()">
+        <span id="cmdTxt"
+          ><span class="icmd-pfx">$</span> npm install @iconora/react</span
+        >
+        <svg class="ci" viewBox="0 0 24 24" stroke-linecap="round">
+          <rect x="9" y="9" width="13" height="13" rx="2" />
+          <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" />
+        </svg>
+      </div>
+    </div>
 
-<!-- FOOTER -->
-<footer>
-  <div class="fl">Iconora</div>
-  <div class="flinks">
-    <a href="https://github.com/sudhanshuku01/iconora" rel="noopener">GitHub</a>
-    <a href="https://www.npmjs.com/package/@iconora/react" rel="noopener">@iconora/react</a>
-    <a href="https://www.npmjs.com/package/@iconora/core" rel="noopener">@iconora/core</a>
-    <a href="#faq">FAQ</a>
-    <a href="#usage">Docs</a>
-  </div>
-  <div class="fc">MIT © 2025 Iconora</div>
-</footer>
+    <!-- FOOTER -->
+    <footer>
+      <div class="fl">Iconora</div>
+      <div class="flinks">
+        <a href="https://github.com/sudhanshuku01/iconora" rel="noopener"
+          >GitHub</a
+        >
+        <a href="https://www.npmjs.com/package/@iconora/react" rel="noopener"
+          >@iconora/react</a
+        >
+        <a href="https://www.npmjs.com/package/@iconora/core" rel="noopener"
+          >@iconora/core</a
+        >
+        <a href="#faq">FAQ</a>
+        <a href="#usage">Docs</a>
+      </div>
+      <div class="fc">MIT © 2025 Iconora</div>
+    </footer>
 
-<div class="toast" id="toast"></div>
+    <div class="toast" id="toast"></div>
 
-<script>
-const icons={
-  home:{c:'interface',t:['house','main'],p:['M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H5a1 1 0 01-1-1V9.5z','M9 21V12h6v9']},
-  menu:{c:'interface',t:['hamburger','nav'],p:['M3 6h18','M3 12h18','M3 18h18']},
-  close:{c:'interface',t:['x','cancel'],p:['M18 6L6 18','M6 6l12 12']},
-  search:{c:'interface',t:['find','magnifier'],p:['M21 21l-4.35-4.35','M17 11A6 6 0 115 11a6 6 0 0112 0z']},
-  settings:{c:'interface',t:['gear','options','config'],p:['M12 15a3 3 0 100-6 3 3 0 000 6z','M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z']},
-  user:{c:'interface',t:['person','profile','account'],p:['M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2','M12 11a4 4 0 100-8 4 4 0 000 8z']},
-  bell:{c:'interface',t:['notification','alert'],p:['M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9','M13.73 21a2 2 0 01-3.46 0']},
-  heart:{c:'interface',t:['like','love','favorite'],p:['M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z']},
-  star:{c:'interface',t:['favorite','rating'],p:['M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z']},
-  bookmark:{c:'interface',t:['save','mark'],p:['M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2v16z']},
-  filter:{c:'interface',t:['sort','refine'],p:['M22 3H2l8 9.46V19l4 2v-8.54L22 3z']},
-  grid:{c:'interface',t:['layout','tiles'],p:['M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z']},
-  list:{c:'interface',t:['items','rows'],p:['M8 6h13','M8 12h13','M8 18h13','M3 6h.01','M3 12h.01','M3 18h.01']},
-  moon:{c:'interface',t:['dark','night','theme'],p:['M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z']},
-  sun:{c:'interface',t:['light','day','theme'],p:['M12 7a5 5 0 100 10A5 5 0 0012 7z','M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42']},
-  'arrow-up':{c:'arrows',t:['up','direction'],p:['M12 19V5','M5 12l7-7 7 7']},
-  'arrow-down':{c:'arrows',t:['down','direction'],p:['M12 5v14','M19 12l-7 7-7-7']},
-  'arrow-left':{c:'arrows',t:['back','previous'],p:['M19 12H5','M12 19l-7-7 7-7']},
-  'arrow-right':{c:'arrows',t:['forward','next'],p:['M5 12h14','M12 5l7 7-7 7']},
-  'chevron-up':{c:'arrows',t:['collapse','up'],p:['M18 15l-6-6-6 6']},
-  'chevron-down':{c:'arrows',t:['expand','down'],p:['M6 9l6 6 6-6']},
-  'chevron-left':{c:'arrows',t:['previous','back'],p:['M15 18l-6-6 6-6']},
-  'chevron-right':{c:'arrows',t:['next','forward'],p:['M9 18l6-6-6-6']},
-  refresh:{c:'arrows',t:['reload','sync'],p:['M23 4v6h-6','M1 20v-6h6','M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15']},
-  'external-link':{c:'arrows',t:['open','new tab'],p:['M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6','M15 3h6v6','M10 14L21 3']},
-  play:{c:'media',t:['start','video'],p:['M5 3l14 9-14 9V3z']},
-  pause:{c:'media',t:['stop','video'],p:['M6 4h4v16H6zM14 4h4v16h-4z']},
-  stop:{c:'media',t:['end','audio'],p:['M4 4h16v16H4z']},
-  volume:{c:'media',t:['sound','speaker'],p:['M11 5L6 9H2v6h4l5 4V5z','M19.07 4.93a10 10 0 010 14.14M15.54 8.46a5 5 0 010 7.07']},
-  image:{c:'media',t:['photo','gallery'],p:['M21 19a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v14z','M8.5 10a1.5 1.5 0 100-3 1.5 1.5 0 000 3z','M21 15l-5-5L5 21']},
-  camera:{c:'media',t:['photo','capture'],p:['M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2v11z','M12 17a4 4 0 100-8 4 4 0 000 8z']},
-  mic:{c:'media',t:['microphone','record'],p:['M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z','M19 10v2a7 7 0 01-14 0v-2','M12 19v4M8 23h8']},
-  mail:{c:'communication',t:['email','inbox'],p:['M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z','M22 6l-10 7L2 6']},
-  chat:{c:'communication',t:['message','bubble'],p:['M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2v10z']},
-  phone:{c:'communication',t:['call','contact'],p:['M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z']},
-  link:{c:'communication',t:['url','connect'],p:['M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71','M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71']},
-  share:{c:'communication',t:['send','social'],p:['M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8','M16 6l-4-4-4 4','M12 2v13']},
-  globe:{c:'communication',t:['world','internet'],p:['M12 2a10 10 0 100 20A10 10 0 0012 2z','M2 12h20','M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z']},
-  cart:{c:'commerce',t:['shop','buy'],p:['M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z','M3 6h18','M16 10a4 4 0 01-8 0']},
-  credit:{c:'commerce',t:['card','payment'],p:['M21 4H3a2 2 0 00-2 2v12a2 2 0 002 2h18a2 2 0 002-2V6a2 2 0 00-2-2z','M1 10h22']},
-  tag:{c:'commerce',t:['label','price'],p:['M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z','M7 7h.01']},
-  gift:{c:'commerce',t:['present','reward'],p:['M20 12v10H4V12','M2 7h20v5H2z','M12 22V7','M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z','M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z']},
-  file:{c:'files',t:['document','text'],p:['M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9z','M13 2v7h7']},
-  folder:{c:'files',t:['directory','storage'],p:['M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2v11z']},
-  download:{c:'files',t:['save','export'],p:['M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4','M7 10l5 5 5-5','M12 15V3']},
-  upload:{c:'files',t:['import','push'],p:['M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4','M17 8l-5-5-5 5','M12 3v12']},
-  trash:{c:'files',t:['delete','remove'],p:['M3 6h18','M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6','M10 11v6M14 11v6','M9 6V4a1 1 0 011-1h4a1 1 0 011 1v2']},
-  edit:{c:'files',t:['pencil','modify'],p:['M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7','M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z']},
-  copy:{c:'files',t:['duplicate','clone'],p:['M20 9h-9a2 2 0 00-2 2v9a2 2 0 002 2h9a2 2 0 002-2v-9a2 2 0 00-2-2z','M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1']},
-  'bar-chart':{c:'charts',t:['graph','analytics'],p:['M12 20V10','M18 20V4','M6 20v-4']},
-  'pie-chart':{c:'charts',t:['graph','percentage'],p:['M21.21 15.89A10 10 0 118 2.83','M22 12A10 10 0 0012 2v10z']},
-  trending:{c:'charts',t:['growth','analytics'],p:['M23 6l-9.5 9.5-5-5L1 18','M17 6h6v6']},
-  monitor:{c:'devices',t:['screen','desktop'],p:['M20 3H4a2 2 0 00-2 2v11a2 2 0 002 2h16a2 2 0 002-2V5a2 2 0 00-2-2z','M8 21h8M12 17v4']},
-  smartphone:{c:'devices',t:['mobile','phone'],p:['M17 2H7a2 2 0 00-2 2v16a2 2 0 002 2h10a2 2 0 002-2V4a2 2 0 00-2-2z','M12 18h.01']},
-  wifi:{c:'devices',t:['internet','wireless'],p:['M5 12.55a11 11 0 0114.08 0','M1.42 9a16 16 0 0121.16 0','M8.53 16.11a6 6 0 016.95 0','M12 20h.01']},
-  bluetooth:{c:'devices',t:['wireless','connect'],p:['M6.5 6.5l11 11L12 23V1l5.5 5.5-11 11']},
-  lock:{c:'security',t:['secure','private'],p:['M19 11H5a2 2 0 00-2 2v7a2 2 0 002 2h14a2 2 0 002-2v-7a2 2 0 00-2-2z','M7 11V7a5 5 0 0110 0v4']},
-  unlock:{c:'security',t:['open','access'],p:['M19 11H5a2 2 0 00-2 2v7a2 2 0 002 2h14a2 2 0 002-2v-7a2 2 0 00-2-2z','M7 11V7a5 5 0 019.9-1']},
-  shield:{c:'security',t:['protect','safe'],p:['M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z']},
-  key:{c:'security',t:['password','auth'],p:['M21 2l-2 2m-7.61 7.61a5.5 5.5 0 11-7.778 7.778 5.5 5.5 0 017.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4']},
-  eye:{c:'security',t:['view','visible'],p:['M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z','M12 15a3 3 0 100-6 3 3 0 000 6z']},
-  'eye-off':{c:'security',t:['hidden','hide'],p:['M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94','M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19','M1 1l22 22','M14.12 14.12a3 3 0 01-4.243-4.243']},
-  'map-pin':{c:'nature',t:['location','place'],p:['M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z','M12 13a3 3 0 100-6 3 3 0 000 6z']},
-  cloud:{c:'nature',t:['weather','storage'],p:['M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z']},
-  zap:{c:'nature',t:['lightning','energy'],p:['M13 2L3 14h9l-1 8 10-12h-9l1-8z']},
-};
+    <script src="./icon-data.js"></script>
+    <script>
+      const docsData = window.__ICONORA_DOCS__ || { icons: {}, categories: [] };
+      const icons = docsData.icons || {};
+      const cats = ["all", ...(docsData.categories || [])];
+      const PAGE_SIZE = 50;
+      let activeCat = "all",
+        searchQ = "";
+      let visibleCount = PAGE_SIZE;
 
-const cats=['all','interface','arrows','media','communication','commerce','files','charts','devices','nature','security'];
-let activeCat='all',searchQ='';
+      function mkSvg(paths, sz = 22) {
+        return `<svg viewBox="0 0 24 24" width="${sz}" height="${sz}" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${paths.map((d) => `<path d="${d}"/>`).join("")}</svg>`;
+      }
 
-function mkSvg(paths,sz=22){return`<svg viewBox="0 0 24 24" width="${sz}" height="${sz}" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${paths.map(d=>`<path d="${d}"/>`).join('')}</svg>`;}
+      function setStats() {
+        const iconCountEl = document.getElementById("iconCount");
+        const categoryCountEl = document.getElementById("categoryCount");
+        if (iconCountEl)
+          iconCountEl.textContent = String(Object.keys(icons).length);
+        if (categoryCountEl)
+          categoryCountEl.textContent = String(cats.length - 1);
+      }
 
-function buildMosaic(){
-  const keys=Object.keys(icons);
-  const m=document.getElementById('mosaic');
-  const litIdx=new Set([2,7,12,17,22]);
-  keys.slice(0,25).forEach((n,i)=>{
-    const c=document.createElement('div');
-    c.className='mc'+(litIdx.has(i)?' lit':'');
-    c.innerHTML=mkSvg(icons[n].p,20);
-    c.onclick=()=>copyIcon(n);
-    m.appendChild(c);
-  });
-  setInterval(()=>{
-    const all=[...m.querySelectorAll('.mc')];
-    const unlit=all.filter(x=>!x.classList.contains('lit'));
-    const lit=all.filter(x=>x.classList.contains('lit'));
-    if(Math.random()>.6&&unlit.length&&lit.length){
-      unlit[Math.floor(Math.random()*unlit.length)].classList.add('lit');
-      lit[Math.floor(Math.random()*lit.length)].classList.remove('lit');
-    }
-  },1800);
-}
+      function buildMosaic() {
+        const keys = Object.keys(icons);
+        const m = document.getElementById("mosaic");
+        const litIdx = new Set([2, 7, 12, 17, 22]);
+        keys.slice(0, 25).forEach((n, i) => {
+          const c = document.createElement("div");
+          c.className = "mc" + (litIdx.has(i) ? " lit" : "");
+          c.innerHTML = mkSvg(icons[n].p, 20);
+          c.onclick = () => copyIcon(n);
+          m.appendChild(c);
+        });
+        setInterval(() => {
+          const all = [...m.querySelectorAll(".mc")];
+          const unlit = all.filter((x) => !x.classList.contains("lit"));
+          const lit = all.filter((x) => x.classList.contains("lit"));
+          if (Math.random() > 0.6 && unlit.length && lit.length) {
+            unlit[Math.floor(Math.random() * unlit.length)].classList.add(
+              "lit",
+            );
+            lit[Math.floor(Math.random() * lit.length)].classList.remove("lit");
+          }
+        }, 1800);
+      }
 
-function buildFilters(){
-  const bar=document.getElementById('filterBar');
-  cats.forEach(cat=>{
-    const b=document.createElement('button');
-    b.className='fb'+(cat==='all'?' active':'');
-    b.textContent=cat.charAt(0).toUpperCase()+cat.slice(1);
-    b.onclick=()=>{activeCat=cat;document.querySelectorAll('.fb').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderGrid();};
-    bar.appendChild(b);
-  });
-}
+      function buildFilters() {
+        const bar = document.getElementById("filterBar");
+        bar.innerHTML = "";
+        cats.forEach((cat) => {
+          const b = document.createElement("button");
+          b.className = "fb" + (cat === "all" ? " active" : "");
+          b.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
+          b.onclick = () => {
+            activeCat = cat;
+            visibleCount = PAGE_SIZE;
+            document
+              .querySelectorAll(".fb")
+              .forEach((x) => x.classList.remove("active"));
+            b.classList.add("active");
+            renderGrid();
+          };
+          bar.appendChild(b);
+        });
+      }
 
-function renderGrid(){
-  const grid=document.getElementById('iconGrid');
-  grid.innerHTML='';
-  const q=searchQ.toLowerCase();
-  const filtered=Object.entries(icons).filter(([n,d])=>(activeCat==='all'||d.c===activeCat)&&(q?(n.includes(q)||d.t.some(t=>t.includes(q))):true));
-  if(!filtered.length){grid.innerHTML='<div class="nores">No icons found for "'+q+'"</div>';return;}
-  filtered.forEach(([name])=>{
-    const card=document.createElement('div');
-    card.className='icard';
-    card.innerHTML=mkSvg(icons[name].p)+`<span class="iname">${name}</span><div class="icopied">Copied!</div>`;
-    card.onclick=()=>copyIcon(name,card);
-    grid.appendChild(card);
-  });
-}
+      function renderGrid() {
+        const grid = document.getElementById("iconGrid");
+        const count = document.getElementById("resultsCount");
+        const loadMoreBtn = document.getElementById("loadMoreBtn");
+        grid.innerHTML = "";
+        const q = searchQ.toLowerCase();
+        const filtered = Object.entries(icons).filter(
+          ([n, d]) =>
+            (activeCat === "all" || d.c === activeCat) &&
+            (q
+              ? n.includes(q) ||
+                d.c.includes(q) ||
+                d.t.some((t) => t.includes(q))
+              : true),
+        );
+        if (!filtered.length) {
+          count.textContent = "Showing 0 icons";
+          loadMoreBtn.hidden = true;
+          grid.innerHTML =
+            '<div class="nores">No icons found for "' + q + '"</div>';
+          return;
+        }
+        const visibleItems = filtered.slice(0, visibleCount);
+        count.textContent = `Showing ${visibleItems.length} of ${filtered.length} icons`;
+        loadMoreBtn.hidden = visibleItems.length >= filtered.length;
+        visibleItems.forEach(([name]) => {
+          const card = document.createElement("div");
+          card.className = "icard";
+          card.innerHTML =
+            mkSvg(icons[name].p) +
+            `<span class="iname">${name}</span><div class="icopied">Copied!</div>`;
+          card.onclick = () => copyIcon(name, card);
+          grid.appendChild(card);
+        });
+      }
 
-function filterIcons(){searchQ=document.getElementById('searchInput').value;renderGrid();}
+      function filterIcons() {
+        searchQ = document.getElementById("searchInput").value;
+        visibleCount = PAGE_SIZE;
+        renderGrid();
+      }
 
-function copyIcon(name,card){
-  const pascal=name.split('-').map(s=>s.charAt(0).toUpperCase()+s.slice(1)).join('');
-  const code=`import { ${pascal}Icon } from '@iconora/react';\n\n<${pascal}Icon size={24} />`;
-  navigator.clipboard.writeText(code).then(()=>{
-    if(card){card.classList.add('copied');setTimeout(()=>card.classList.remove('copied'),1100);}
-    toast(`${pascal}Icon copied!`);
-  });
-}
+      function loadMoreIcons() {
+        visibleCount += PAGE_SIZE;
+        renderGrid();
+      }
 
-function copyText(text,msg){navigator.clipboard.writeText(text).then(()=>toast(msg||'Copied!'));}
-function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000);}
+      function copyIcon(name, card) {
+        const pascal = name
+          .split("-")
+          .map((s) => s.charAt(0).toUpperCase() + s.slice(1))
+          .join("");
+        const code = `import { ${pascal}Icon } from '@iconora/react';\n\n<${pascal}Icon size={24} />`;
+        navigator.clipboard.writeText(code).then(() => {
+          if (card) {
+            card.classList.add("copied");
+            setTimeout(() => card.classList.remove("copied"), 1100);
+          }
+          toast(`${pascal}Icon copied!`);
+        });
+      }
 
-const cmds={npm:'npm install @iconora/react',yarn:'yarn add @iconora/react',pnpm:'pnpm add @iconora/react',bun:'bun add @iconora/react'};
-function setTab(btn,pkg){document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));btn.classList.add('active');document.getElementById('cmdTxt').innerHTML=`<span class="icmd-pfx">$</span> ${cmds[pkg]}`;}
-function copyCmd(){const a=document.querySelector('.tab.active').textContent.trim().toLowerCase();navigator.clipboard.writeText(cmds[a]).then(()=>toast('Copied!'));}
+      function copyText(text, msg) {
+        navigator.clipboard.writeText(text).then(() => toast(msg || "Copied!"));
+      }
+      function toast(msg) {
+        const t = document.getElementById("toast");
+        t.textContent = msg;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2000);
+      }
 
-function switchTab(btn,id){
-  document.querySelectorAll('.ctab').forEach(b=>b.classList.remove('active'));
-  document.querySelectorAll('.code-panel').forEach(p=>p.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById('panel-'+id).classList.add('active');
-}
+      const cmds = {
+        npm: "npm install @iconora/react",
+        yarn: "yarn add @iconora/react",
+        pnpm: "pnpm add @iconora/react",
+        bun: "bun add @iconora/react",
+      };
+      function setTab(btn, pkg) {
+        document
+          .querySelectorAll(".tab")
+          .forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById("cmdTxt").innerHTML =
+          `<span class="icmd-pfx">$</span> ${cmds[pkg]}`;
+      }
+      function copyCmd() {
+        const a = document
+          .querySelector(".tab.active")
+          .textContent.trim()
+          .toLowerCase();
+        navigator.clipboard.writeText(cmds[a]).then(() => toast("Copied!"));
+      }
 
-function toggleFaq(el){el.parentElement.classList.toggle('open');}
+      function switchTab(btn, id) {
+        document
+          .querySelectorAll(".ctab")
+          .forEach((b) => b.classList.remove("active"));
+        document
+          .querySelectorAll(".code-panel")
+          .forEach((p) => p.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById("panel-" + id).classList.add("active");
+      }
 
-buildMosaic();buildFilters();renderGrid();
-</script>
-</body>
+      function toggleFaq(el) {
+        el.parentElement.classList.toggle("open");
+      }
+
+      setStats();
+      buildMosaic();
+      buildFilters();
+      renderGrid();
+    </script>
+  </body>
 </html>

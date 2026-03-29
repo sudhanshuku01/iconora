@@ -4,12 +4,12 @@
   "private": true,
   "description": "Iconora – Production-grade SVG icon library",
   "scripts": {
-    "build": "turbo run build --filter=!iconora",
+    "build": "turbo run build --filter=!iconora && node scripts/generate-docs-data.mjs",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "test": "turbo run test",
     "optimize": "node scripts/optimize-svgs.mjs",
-    "generate": "node scripts/generate-components.mjs",
+    "generate": "node scripts/generate-components.mjs && node scripts/generate-docs-data.mjs",
     "release": "changeset publish"
   },
   "devDependencies": {
