@@ -10,7 +10,7 @@
     "test": "turbo run test",
     "optimize": "node scripts/optimize-svgs.mjs",
     "generate": "node scripts/generate-components.mjs && node scripts/generate-docs-data.mjs",
-    "release": "changeset publish"
+    "release": "changeset version && pnpm --filter ./packages/* publish -r --access public --no-git-checks"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

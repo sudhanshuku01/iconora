@@ -70,7 +70,7 @@ jobs:
             echo "⏭️  $PACKAGE_NAME@$PACKAGE_VERSION already published, skipping."
           else
             echo "🚀 Publishing $PACKAGE_NAME@$PACKAGE_VERSION"
-            npm publish --access public
+            pnpm publish --access public --no-git-checks
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -85,7 +85,7 @@ jobs:
             echo "⏭️  $PACKAGE_NAME@$PACKAGE_VERSION already published, skipping."
           else
             echo "🚀 Publishing $PACKAGE_NAME@$PACKAGE_VERSION"
-            npm publish --access public
+            pnpm publish --access public --no-git-checks
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
